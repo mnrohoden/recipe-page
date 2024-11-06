@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Young+Serif">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Outfit">
+
+  <title>Frontend Mentor | Recipe page</title>
+
+  <!-- styles or customise stylesheet -->
+  <style>
+    body {
+        font-family: 'Outfit'; color: hsl(24, 5%, 18%);
+        font-size: 12px; font-weight:400;
+        background-color: hsl(30, 54%, 90%);
+    } 
+    .menu {margin: 0; width: 500px; height: fit-content; padding: 30px; 
+         position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+         background-color: hsl(0, 0%, 100%); 
+         text-align: left; border-radius: 10px;
+    }
+    .imagenmenu {
+      width: 500px; 
+      border-radius:10px; 
+    }
+    .cuadro1 {
+      font-family: 'Outfit';
+      width:100%; padding: 5px;
+      border-radius:10px;
+      background-color: hsl(330, 100%, 98%);
+    }
+    .row {
+    border-bottom:1px solid hsl(15, 7%, 88%); padding-bottom: 1em; 
+}
+
+  </style>
+</head>
+<body>
+  <div class="menu">
+    
+    <img src="assets/images/image-omelette.jpeg" alt="omelete" class="imagenmenu">
+    <p style="font-size:35px; font-weight: 700; font-family: 'Young-Serif'; margin-top:15px; margin-bottom:10px;">Simple Omelette Recipe</p>
+
+    <p style="font-family: Outfit; font-size: 12px; color:hsl(30, 10%, 34%);">An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
+    to perfection, optionally filled with your choice of cheese, vegetables, or meats.</p> 
+  
+    <div class="cuadro1">
+      <p style="color: hsl(332, 51%, 32%); font-weight:900; margin-left: 20px; font-size: 16px;">Preparation time</p> 
+      <ul>
+        <li style="margin-bottom: 5px;"><b>Total:</b> Approximately 10 minutes</li>
+        <li style="margin-bottom: 5px;"><b>Preparation:</b> 5 minutes</li>
+        <li style="margin-bottom: 5px;"><b>Cooking:</b> 5 minutes</li>
+      </ul>
+    </div>
+    
+    
+    <p style="color: hsl(332, 51%, 32%); font-family: 'Young-Serif'; font-weight:900; font-size: 25px;">Ingredients</p>
+    <ul>
+      <li style="margin-bottom: 5px;">2-3 large eggs</li>
+      <li style="margin-bottom: 5px;">Salt, to taste</li>
+      <li style="margin-bottom: 5px;">Pepper, to taste</li>
+      <li style="margin-bottom: 5px;">1 tablespoon of butter or oil</li>
+      <li style="margin-bottom: 5px;">Optional fillings: cheese, diced vegetables, cooked meats, herbs</li>
+    </ul>
+      
+    <p style="color: hsl(332, 51%, 32%); font-family: 'Young-Serif'; font-weight:900; font-size: 25px;">Instructions</p>
+    <ol>
+      <li style="margin-bottom: 5px;"><b>Beat the eggs:</b> In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed. 
+        You can add a tablespoon of water or milk for a fluffier texture.</li>
+      <li style="margin-bottom: 5px;"><b>Heat the pan:</b> Place a non-stick frying pan over medium heat and add butter or oil.</li>
+      <li style="margin-bottom: 5px;"><b>Cook the omelette:</b> Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure 
+        the eggs evenly coat the surface.</li>
+      <li style="margin-bottom: 5px;"><b>Add fillings (optional):</b> When the eggs begin to set at the edges but are still slightly runny in the 
+        middle, sprinkle your chosen fillings over one half of the omelette.</li>
+      <li style="margin-bottom: 5px;"><b>Fold and serve:</b> As the omelette continues to cook, carefully lift one edge and fold it over the 
+        fillings. Let it cook for another minute, then slide it onto a plate.</li>
+      <li style="margin-bottom: 5px;"><b>Enjoy:</b> Serve hot, with additional salt and pepper if needed.</li>
+    </ol>
+
+    <p style="color: hsl(332, 51%, 32%); font-family: 'Young-Serif'; font-weight:900; font-size: 25px;">Nutrition</p>
+    The table below shows nutritional values per serving without the additional fillings.
+  
+    <table style="padding: 20px; width: 100%; border-collapse: collapse;">
+      <tr class="row">
+        <td>Calories</td>
+        <td style="color:hsl(332, 51%, 32%); font-weight: bold;">277kcal</td>
+      </tr>
+      <tr class="row">
+        <td>Carbs</td>
+        <td style="color:hsl(332, 51%, 32%); font-weight: bold;">0g</td>
+      </tr>
+      <tr class="row">
+        <td>Protein</td>
+        <td style="color:hsl(332, 51%, 32%); font-weight: bold;">20g</td>
+      </tr>
+      <tr class="row">
+        <td>Fat</td>
+        <td style="color:hsl(332, 51%, 32%); font-weight: bold;">22g</td>
+      </tr>
+    </table>
+  </div>
+
+  
+
+</body>
+</html>
